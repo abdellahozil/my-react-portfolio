@@ -4,10 +4,10 @@
     column-gap: 4rem;
 }
 .about__img {
-    background-image: url(../../assets/imageeee.jpg);
+    /* background-image: url(../../assets/imageeee.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: contain; */
     height: 350px;
     border-radius: 1.5rem;
     justify-self: center;

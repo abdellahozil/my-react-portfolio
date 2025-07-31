@@ -3,6 +3,7 @@ import React from 'react'
 import Info from './Info'
 import "./about.css"
 // import CV from "../../assets/Smith-Cv.pdf"
+import about_img from "../../assets/imageeee.jpg"
 
 const About = () => {
   return (
@@ -10,8 +11,9 @@ const About = () => {
         <h2 className="section__title">About Me</h2>
         <span className='section__subtitle'>My introduction</span>
         <div className="about__container container grid">
-            <div className="about__img">
-            </div>
+          {/* <div className="about__img">
+            </div> */}
+            <img src={about_img} alt="" className='about__img' />
             <div className="about__data">
                 <Info></Info>
                 <p className="about__description">Frontend developer, I create web pages with UI / UX user interface, I have year of experience and many Clients are happy with projects carried out.</p>
