@@ -6,7 +6,7 @@ export const projectsData = [
     {
         id: 1,
         image: heroshop,
-        title : "title",
+        title : "Ecommerce website",
         url: "https://abdellahozil.github.io/heroshop"
     },
     {
@@ -14,12 +14,6 @@ export const projectsData = [
         image: Beema,
         title : "landing page",
         url: "https://abdellahozil.github.io/Beema/"
-    },
-    {
-        id: 3,
-        image: work1,
-        title : "title",
-        url:""
-    },
+    }
 ]
 
