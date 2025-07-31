@@ -10,6 +10,7 @@ const Home = () => {
         <div className="home__container container grid">
             <div className="home__content grid">
                 <Social></Social>
+                {/* my first image for home  */}
                 <div className="home__img">
                 </div>
                 <Data />
