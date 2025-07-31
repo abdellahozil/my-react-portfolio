@@ -1,5 +1,5 @@
 import React from 'react'
-import AboutImg from "../../assets/imageeee.jpg"
+// import AboutImg from "../../assets/imageeee.jpg"
 import Info from './Info'
 import "./about.css"
 // import CV from "../../assets/Smith-Cv.pdf"
@@ -10,7 +10,8 @@ const About = () => {
         <h2 className="section__title">About Me</h2>
         <span className='section__subtitle'>My introduction</span>
         <div className="about__container container grid">
-            <img src={AboutImg} alt="" className="about__img" />
+            <div className='className="about__img"'>
+            </div>
             <div className="about__data">
                 <Info></Info>
                 <p className="about__description">Frontend developer, I create web pages with UI / UX user interface, I have year of experience and many Clients are happy with projects carried out.</p>

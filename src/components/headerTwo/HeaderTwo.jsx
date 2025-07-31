@@ -32,7 +32,7 @@ const HeaderTwo = () => {
                         <a href="#contact" className={activNav === "#contact" ? "nav__link active__link" : "nav__link"} onClick={() => setActivNav(("#contact"))}>Contact</a>
                     </li>
                 </ul>
-            </div>
+        </div>
         <div className={`${showMenu ? "nav__menu__two show-menu" : "nav__menu__two"}`}>
           <div className="nav__data__two">
               <ul className="nav__list__two">
