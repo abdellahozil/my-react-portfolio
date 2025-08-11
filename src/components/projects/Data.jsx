@@ -1,6 +1,7 @@
-import work1 from "../../assets/work1.jpg"
+
 import Beema from "../../assets/Beema.png"
 import heroshop from "../../assets/heroshop.png.png"
+import heroRestau from "../../assets/heroRestau.png.png"
 
 export const projectsData = [
     {
@@ -8,6 +9,12 @@ export const projectsData = [
         image: heroshop,
         title : "Ecommerce website",
         url: "https://abdellahozil.github.io/heroshop"
+    },
+    {
+        id: 3,
+        image: heroRestau,
+        title : "Restaurant website",
+        url: "https://abdellahozil.github.io/herorestau/"
     },
     {
         id: 2,
